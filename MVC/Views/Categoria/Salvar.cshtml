@@ -1,0 +1,20 @@
+﻿@model Dominio.Categoria
+
+<h2>Formulario de Categoria</h2>
+
+<form class="form-horizontal" asp-action="Salvar" asp-controller="Categoria" method="POST">
+
+    <input type="hidden" class="form-control" asp-for="Id">
+    <div class="form-group">
+        <label class="col-md-1 control-label" for="Name">Name</label>
+    <div class="col-md-2">
+        <input type="text" class="form-control" asp-for="Nome">
+    </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-2">
+            <button class="btn btn-success">Salvar</button>
+        </div>   
+    </div>
+
+</form>

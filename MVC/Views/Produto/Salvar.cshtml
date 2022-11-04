@@ -1,0 +1,27 @@
+@model Dominio.Produto
+
+<h2>Formulário de Produto</h2>
+
+<form class="form-horizontal" asp-action="Salvar" asp-controller="Produto" method="POST">
+
+    <input type="hidden" class="form-control" asp-for="Id">
+    <div class="form-group">
+        <label for="col-md-1 control-label" for="Name">Nome</label>
+        <div class="col-md-2">
+            <input type="text" class="form-control" asp-for="Nome">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="col-md-1 control-label" for="Name">Categoria</label>
+        <div class="col-md-2">
+            <select class="from-control" asp-for="CategoriaId" 
+                asp-items='@(new SelectList(@ViewBag.Categorias, "Id", "Nome"))'>    
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-2">
+            <button class="btn btn-success">Salvar</button>
+        </div>
+    </div>
+</form>

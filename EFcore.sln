@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{A5B2AD77-D3A3-48F8-BA44-C028398D4F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{396C3AC3-D8B7-42BA-A277-6C4F58C5675C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{224AB98A-6551-4A56-890A-441C3739AB9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B2AD77-D3A3-48F8-BA44-C028398D4F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B2AD77-D3A3-48F8-BA44-C028398D4F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B2AD77-D3A3-48F8-BA44-C028398D4F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B2AD77-D3A3-48F8-BA44-C028398D4F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396C3AC3-D8B7-42BA-A277-6C4F58C5675C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C3AC3-D8B7-42BA-A277-6C4F58C5675C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C3AC3-D8B7-42BA-A277-6C4F58C5675C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C3AC3-D8B7-42BA-A277-6C4F58C5675C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224AB98A-6551-4A56-890A-441C3739AB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224AB98A-6551-4A56-890A-441C3739AB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224AB98A-6551-4A56-890A-441C3739AB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224AB98A-6551-4A56-890A-441C3739AB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
